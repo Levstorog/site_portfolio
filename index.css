@@ -1,0 +1,267 @@
+header {
+    justify-content: center;
+background-image: url(./fons/фон.png);
+    background-size: 100%;
+    width: 100%;
+height: 100%;
+color: white;
+position:relative;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.null {
+    width: 100%;
+    height: 950px;
+    background-color: rgb(0, 0, 0, 0);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.her {
+    display: flex;
+justify-content: flex-end;
+
+}
+li {
+list-style-type: none;
+margin: 0 10px;
+
+}
+.hed {
+    display: flex;
+justify-content: space-between;
+background-color: rgb(0, 0, 0, 0.5);
+}
+.name {
+    margin: 30px;
+    margin-right: 400px;
+}
+.name:hover {
+    background-image: linear-gradient(to right, #352384, #e90b8b);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 5s;
+}
+body {
+background-size: 100%;
+    font-size: 30px;
+    background: linear-gradient(120deg, Magenta, MediumOrchid, DarkViolet, Purple, Indigo, DarkSlateBlue, RoyalBlue, MidnightBlue);
+    background-size: cover;
+    background-repeat: unset;
+height: 100%;
+    color: white;
+}
+.cras {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.cras:hover {
+    color: lime;
+}
+.jun {
+    text-align: center;
+    font-size: 60px;
+}
+
+.spons {
+    font-size: 50px;
+text-align: center;
+}
+.cras {
+    background-image: linear-gradient(to right, #352384, #e90b8b);
+    background-repeat: no-repeat;
+    background-size: 0px 2px;
+    background-position: left bottom;
+    padding-bottom: 2px;
+    text-decoration: none;
+    transition: background-size 0.5s;
+    color: white;
+}
+
+.cras:hover {
+    background-size: 100% 2px;
+}
+.cel {
+    background-image: linear-gradient(to right, #352384, #e90b8b);
+    background-repeat: no-repeat;
+    background-size: 0px 2px;
+    background-position: left bottom;
+    padding-bottom: 2px;
+    text-decoration: none;
+    transition: background-size 0.5s;
+    color: white;
+}
+.cel:hover {
+    background-size: 100% 2px;
+}
+
+footer {
+    text-align: center;
+}
+
+.html5 {
+    height: 20px; 
+    width: 500px; 
+    border: 1px solid grey; 
+    border-radius: 9px; 
+    background-color: white;
+
+}
+.html5_proc {
+    margin: 1px; 
+    width: 400px; 
+    height: 18px; 
+    background-image: linear-gradient(to right, #ADFF2F, #00FF00, #00FA9A, #00FF7F); 
+    border-radius: 9px; 
+    font-size: 20px;
+
+}
+.css {
+    height: 20px; 
+    width: 500px; 
+    border: 1px solid grey; 
+    border-radius: 9px; 
+    background-color: white;
+}
+.css_proc {
+    margin: 1px; 
+    width: 300px; 
+    height: 18px; 
+    background-image: linear-gradient(to right, #ADFF2F, #00FF00, #00FA9A, #00FF7F); 
+    border-radius: 9px; 
+    font-size: 20px;
+}
+.js {
+    height: 20px; 
+    width: 500px; 
+    border: 1px solid grey; 
+    border-radius: 9px; 
+    background-color: white;
+}
+.js_proc {
+    margin: 1px; 
+    width: 100px; 
+    height: 18px; 
+    background-image: linear-gradient(to right, #ADFF2F, #00FF00, #00FA9A, #00FF7F); 
+    border-radius: 9px; 
+    font-size: 20px;
+}
+#navik {
+    margin-left: 30%;
+    
+}
+.left {
+border-radius: 5px;
+    background-image: linear-gradient(135deg, #9b51e0, #ba68c8);
+display: flex;
+width: 400px;
+}
+.tg {
+text-decoration: none;
+color: white;
+}
+.uslugi {
+    display: flex;
+justify-content: space-around;
+}
+.sviaz {
+    border-radius: 5px;
+        display: flex;
+}
+.fok {
+    background-color: #352384;
+
+}
+input[name=pismo] {
+    height: 150px;
+    width: 200px;
+}
+
+button {
+    border: 2px #000 solid;
+    border-radius: 3px;
+    transition: .5s;
+    cursor: pointer;
+ background-color: rgb(169, 169, 169);
+ margin-left: 20px;
+
+}
+button:hover {
+background-color: black;
+color: white;
+}
+
+.fotki {
+    width: 450px;
+    height: 350px;
+    border: #7B68EE 5px solid;
+
+}
+.work, #us, #work{
+display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.not {
+    text-decoration: none;
+}
+
+#us {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.uslg1 {
+    width: 300px;
+    background-image: linear-gradient(45deg, #50c878,  #73b663, #22613C, #157E5A, #B7D844, #6F9A6F);
+    text-align: center;
+}
+
+.uslg2 {
+    width: 300px;
+    background-image: linear-gradient(45deg, #00008B, #007BA7, #009988, #4169E1, #87CEEB, #324AB2);
+    text-align: center;
+}
+.uslg3 {
+    width: 300px;
+    background-image: linear-gradient(45deg, #FF7F50, #B71C1C, #EE0202, #E0115F, #800020);
+    text-align: center;
+}
+.kon {
+    text-align: center;
+}
+#pismo {
+    height: 35px;
+    width: 400px;
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.right {
+    border-radius: 10px;
+        width: 500px;
+    height: 350px;
+background-image: linear-gradient(#222222, #333333, #444444);
+
+margin-left: 450px;
+margin-top: 100px;
+}
+.phone {
+    width: 30px;
+    height: 30px;
+margin: 30px 20px 0 20px;
+}
+.telegr {
+    width: 30px;
+    height: 30px;
+margin: 30px 20px 0 20px;
+}
+.email {
+    width: 30px;
+    height: 30px;
+margin: 30px 20px 0 20px;
+}
